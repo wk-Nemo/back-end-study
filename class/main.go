@@ -1,32 +1,35 @@
 package main
 
 import (
-	test "class/testPackage"
+	"class/Interface"
 	"fmt"
 )
 
 
 func main() {
 	// 变量的声明
-	var a string = "hello world"
-	b := "hello world 2"
-	fmt.Println(a)
-	fmt.Println(b)
+	//var a string = "hello world"
+	//b := "hello world 2"
+	//fmt.Println(a)
+	//fmt.Println(b)
+	//
+	//// 引用包
+	//fmt.Println(test.A)
+	//
+	//// 自执行函数
+	//(func() {
+	//	fmt.Println("hello world")
+	//})()
+	//
+	//// defer
+	//defer def1()
+	//fmt.Println("1")
+	//fmt.Println("2")
+	//defer def2()
+	//fmt.Println("3")
 
-	// 引用包
-	fmt.Println(test.A)
-
-	// 自执行函数
-	(func() {
-		fmt.Println("hello world")
-	})()
-
-	// defer
-	defer def1()
-	fmt.Println("1")
-	fmt.Println("2")
-	defer def2()
-	fmt.Println("3")
+	// interface
+	Interface.InterTest()
 }
 
 func def1() {
