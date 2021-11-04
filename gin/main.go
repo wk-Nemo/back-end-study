@@ -2,39 +2,31 @@ package main
 
 import "github.com/gin-gonic/gin"
 
+type PostParams struct {
+	Name string `json:"name" binding:"required"`
+	Age int `json:"age" binding:"required"`
+	Sex bool `json:"sex" binding:"required"`
+}
+
 func main() {
 	r := gin.Default()
-	r.GET("/path/:id", func(c *gin.Context) {
-		id := c.Param("id")
-		user := c.DefaultQuery("user", "cy")
-		pwd := c.Query("pwd")
-		c.JSON(200, gin.H{
-			"id": id,
-			"user": user,
-			"pwd": pwd,
-		})
+
+	r.POST("/testBind", func(c *gin.Context) {
+		var p PostParams
+		err := c.ShouldBindJSON(&p)
+
+		if err != nil {
+			c.JSON(200, gin.H{
+				"msg": "error",
+				"data": gin.H{},
+			})
+		} else {
+			c.JSON(200, gin.H{
+				"msg": "success",
+				"data": p,
+			})
+		}
 	})
-	r.POST("/path", func(c *gin.Context) {
-		user := c.DefaultPostForm("user", "cy")
-		pwd := c.PostForm("pwd")
-		c.JSON(200, gin.H{
-			"user": user,
-			"pwd": pwd,
-		})
-	})
-	r.DELETE("/path/:id", func(c *gin.Context) {
-		id := c.Param("id")
-		c.JSON(200, gin.H{
-			"id": id,
-		})
-	})
-	r.PUT("/path", func(c *gin.Context) {
-		user := c.DefaultPostForm("user", "cy")
-		pwd := c.PostForm("pwd")
-		c.JSON(200, gin.H{
-			"user": user,
-			"pwd": pwd,
-		})
-	})
-	r.Run(":1010")
+
+	r.Run(":8080")
 }
