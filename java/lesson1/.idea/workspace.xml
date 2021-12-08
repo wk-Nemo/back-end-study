@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44830c9e-37d3-465e-86b7-f078867e2a32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../gin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin/.idea/gin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gin/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lesson1/test1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/main.js.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21z57QU1PT0ucJqEDnFdPjWW5tr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44830c9e-37d3-465e-86b7-f078867e2a32" name="Default Changelist" comment="" />
+      <created>1638930911473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638930911473</updated>
+    </task>
+    <servers />
+  </component>
+</project>
